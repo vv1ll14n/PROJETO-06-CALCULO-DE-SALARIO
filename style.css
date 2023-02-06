@@ -97,6 +97,25 @@ a{
     #txtimportante{
         font-size: 0.8em;
     }
+    input::placeholder{
+        text-align: center;
+        font-size: 0.7em;
+    }
+
+    #btncalcular{
+        width: 50%;
+    
+    }
+    #btncalcular:hover{
+        width: 60%;
+    }
+
+
+
+    #resultado{
+        height: 120px;
+        font-size: 1em;
+    }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
