@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <title>Calculadora de Salário</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-white p-5">Calculadora de salário</h1>
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="animacaoSalario.svg" alt="" class="ml-5">
+                </div>
+                <div class="col-md-8 mt-5 mb-5">
+                    <div id="case-formulario" class="w-75 m-auto p-1">
+                        <form action="" id="form">
+                            <label for="salario"> Informe seu salario BRUTO</label><br>
+
+                            <input type="text" name="salario" placeholder="Ex: 1220 (apenas numeros)"><br>
+
+                            <button id="btncalcular">Calcular</button>
+
+                            <div class="box-resultado">
+                                <p id="p-resultado" class="text-center">Seu salário LIQUIDO é de:</p><br>
+                                <div id="resultado">
+
+                                </div>
+                            </div>
+                        </form>
+                        <p class="text-center mt-4 p-5">Esse é um calculo aproximado e não representa fielmente a realidade, feito apenas para o ambiente de estudos. Tenho conciência que o calculo real de inss tem desconto sobre as faixas saláriais*
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 p-5">
+                    <ul>
+                        Crédito
+                        <li>
+                            <a href="https://www.todacarreira.com/calculo-salario-liquido/?value=50000&dependents=1&otherdiscounts=5000#salary-simulator"
+                                target="_blank">Onde consultei</a>
+                        </li>
+                        Redes
+                        <li>
+                            Meu <a href="https://github.com/vv1ll14n" target="_blank"> Github</a>
+                        </li>
+                        <li>
+                            Meu <a href="https://vv1ll14n.github.io/linktree/" target="_blank"> linktree</a>
+                        </li>
+                        Artigos
+                        <li>
+                            <a href="https://www.todacarreira.com/calculo-salario-liquido/?value=50000&dependents=1&otherdiscounts=5000#salary-simulator"
+                                target="_blank">Como funciona o calculo de salário</a>
+                        </li>
+                        <li>
+                            <a href="https://pt.wikipedia.org/wiki/Sal%C3%A1rio" target="_blank">História do salário</a>
+                        </li>
+                        Outros repositórios
+                        <li>
+                            <a href="https://vv1ll14n.github.io/Gerador-de-qrcode/" target="_blank">Gerador de
+                                QRcode</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 p-5">
+                    <h5 class="text-center">Criado por Willian Oliveira</h5>
+                    <p class="text-center">Todos os direitos reservados &copy; 2023</p>
+                </div>
+                <div class="col-md-4 p-5">
+                    <p class="text-center">Obrigado pela visita</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="calcularsalario.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
